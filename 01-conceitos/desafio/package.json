@@ -1,0 +1,16 @@
+{
+  "name": "configurando_babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<mario_andre.l.a@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
